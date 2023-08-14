@@ -38,5 +38,10 @@ namespace WPF_PDFDocument
                 newn.PdfPath = fileDialog.FileName;
             }
         }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

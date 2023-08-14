@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 F:\GIT REPOS AND CODING\WPF_PDF\WPF_PDFDocument\App.xaml
-21380504361
+31023556731
 
-7-2049996602
+7-1294502709
 121797270652
-Controls\PdfViewer.xaml;MainWindow.xaml;
+Controls\PdfViewer.xaml;Controls\proto.xaml;MainWindow.xaml;
 
-True
+False
 
