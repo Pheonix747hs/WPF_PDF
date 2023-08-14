@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+#Custom Folders
+/WPF_PDFDocument/bin
+/.vs
