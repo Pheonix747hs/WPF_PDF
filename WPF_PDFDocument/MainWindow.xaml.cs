@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WPF_PDFDocument.Controls;
+using IronPdf;
 
 namespace WPF_PDFDocument
 {
