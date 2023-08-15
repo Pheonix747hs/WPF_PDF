@@ -9,11 +9,12 @@
     <Grid Margin="0,0,10,0" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="77*" />
-            <ColumnDefinition Width="417*"/>
+            <ColumnDefinition Width="453*"/>
         </Grid.ColumnDefinitions>
+
         <controls:PdfViewer x:Name="newn" Margin="1,0,-9,0" BorderBrush="Black" BorderThickness="1" Grid.Column="1" >
         </controls:PdfViewer>
-        <Button Content="Open Pdf" HorizontalAlignment="Center" Margin="0,36,0,0" VerticalAlignment="Top" Click="Button_Click" RenderTransformOrigin="0.496,2.682" Height="27" Width="62"/>
-        <Button Content="Button2" HorizontalAlignment="Center" Margin="0,82,0,0" VerticalAlignment="Top" Click="Button1_Click" RenderTransformOrigin="0.496,2.682" Height="27" Width="62"/>
+        <Button Content="Open Pdf" HorizontalAlignment="Center" Margin="0,36,0,0" VerticalAlignment="Top" Click="Button_Click" RenderTransformOrigin="0.496,2.682" Height="27" Width="62" Grid.Column="0"/>
+        <Button Content="Button2" HorizontalAlignment="Center" Margin="0,82,0,0" VerticalAlignment="Top" Click="Button1_Click" RenderTransformOrigin="0.496,2.682" Height="27" Width="62" Grid.Column="0"/>
     </Grid>
 </Window>
