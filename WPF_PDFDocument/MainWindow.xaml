@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <controls:PdfViewer x:Name="newn" Margin="61,36,0,0" BorderBrush="Black" BorderThickness="1"/>
-        <Button Content="Open Pdf" HorizontalAlignment="Left" Margin="0,36,0,0" VerticalAlignment="Top" Click="Button_Click" RenderTransformOrigin="0.496,2.682" Height="27" Width="61"/>
+        <Button Content="Open Pdf" HorizontalAlignment="Left" Margin="0,36,0,0" VerticalAlignment="Top" Click="Button_Click" RenderTransformOrigin="1,1" Height="27" Width="61"/>
         <Button Content="Button2" HorizontalAlignment="Left" Margin="0,63,0,0" VerticalAlignment="Top" Click="Button1_Click" RenderTransformOrigin="0.496,2.682" Height="27" Width="61"/>
     </Grid>
 </Window>
