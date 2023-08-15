@@ -132,6 +132,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Controls\img_to_pdf.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Controls\PdfViewer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -147,6 +151,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\img_to_pdf.xaml.cs">
+      <DependentUpon>img_to_pdf.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\PdfViewer.xaml.cs">
       <DependentUpon>PdfViewer.xaml</DependentUpon>
